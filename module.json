@@ -1,0 +1,63 @@
+{
+  "id": "pf2e-gladiatorial-favor",
+  "title": "TJG's Gladiatorial Favor for PF2e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A quick way to run favor and disfavor in a gladiatorial combat, as run by Tegan J.",
+  "authors": [
+    {
+      "name": "Utkarsh G.",
+      "discord": "avtrspirit",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "team-tags",
+      "label": "Team Tags",
+      "path": "packs/team-tags",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Gladiatorial Favor",
+      "sorting": "a",
+      "packs": [
+        "macros",
+        "team-tags"
+      ],
+      "folders": []
+    }
+  ]
+}
